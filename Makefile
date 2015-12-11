@@ -1,8 +1,8 @@
 build_ext:
 	python setup.py build_ext --inplace
 
-test:
-	py.test src/geventhttpclient/tests	
+#test:
+#	py.test src/geventhttpclient/tests	
 
 _develop:
 	python setup.py develop
